@@ -1,1 +1,9 @@
+#!/bin/sh -e
+export HOME=/root
 
+sleep 1
+eval "/root/aios && ./run.sh"
+sleep 1
+eval "cd /root/forta && ./run.sh"
+
+exit 0
