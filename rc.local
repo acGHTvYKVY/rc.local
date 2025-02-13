@@ -2,7 +2,7 @@
 export HOME=/root
 
 sleep 1
-eval "/root/aios && ./run.sh"
+eval "cd /root/aios && ./run.sh"
 sleep 1
 eval "cd /root/forta && ./run.sh"
 
