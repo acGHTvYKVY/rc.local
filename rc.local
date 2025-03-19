@@ -4,10 +4,10 @@ export HOME=/root
 eval "cd /root/aios && ./run.sh"
 sleep 1
 
-eval "cd /root/forta && ./run.sh"
-sleep 1
+#eval "cd /root/forta && ./run.sh"
+#sleep 1
 
-eval "cd /root/cysic-verifier && ./run.sh"
-sleep 1
+#eval "cd /root/cysic-verifier && ./run.sh"
+#sleep 1
 
 exit 0
